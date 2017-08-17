@@ -1,0 +1,5 @@
+1. Add html version of resume
+2. Add pictures for each project
+3. Add non-CS projects as well
+4. Align text to the left edge of the header picture
+5. Make a table for the contacts, 3 rows in each column
