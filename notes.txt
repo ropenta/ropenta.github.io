@@ -1,5 +1,15 @@
-1. Add html version of resume
-2. Add pictures for each project
-3. Add non-CS projects as well
-4. Align text to the left edge of the header picture
-5. Make a table for the contacts, 3 rows in each column
+Rohith's Notes
+1. Favicon for Tab (right now it's just a blue 'H')
+2. Find and resize 3 images for carosol (1321px x 583px)
+3. Add Open Source contributions section
+4. Make project boxes stack sooner (wide width)
+5. Add border around `Resume` in the header
+6. Update contact section to have links (also update footer)
+
+
+Jen's Notes
+1. Edit timeline so it's compatible with screen width <600px
+2. resize Devpost to match other contact icons (low priority)
+
+Example Portfolio's
+https://brittanychiang.com/#contact

@@ -1,66 +1,651 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset='utf-8'>
-        <title>Rohith Pentaparthy</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-        <style> 
-            body { 
-                padding-top: 64px; 
-            } 
-        </style>
-        <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-    </head>
-    <body>
-        
-    <nav class="navbar navbar-default navbar-expand-lg navbar-dark bg-dark navbar-fixed-top" id="mainNav">               <div class="container">
-            <div class="container">
-                <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">RP</a>
+<html lang="en">
+<!-- Basic Page Needs––––––––––––––––––––––––––– -->
+
+<head>
+    <meta http-equiv="content-type" content="text/html">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="Rohith Pentaparthy">
+    <meta name="author" content="Rohith Pentaparthy">
+    <title>Rohith Pentaparthy</title>
+
+    <!-- Bootstrap Core CSS ––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+    <!-- Custom CSS ––––––––––––––––––––––––––– -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- fontawesome ––––––––––––––––––––––––––– -->
+    <script src="https://kit.fontawesome.com/5c9f2dfb26.js"></script>
+    <!-- To add a google font and paste the link -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Roboto:300,500&display=swap" rel="stylesheet">
+    <!-- Favicon––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light navbarbackground">
+        <!--     add d-block d-sm-none class name if you just want the brand name to appear in the mobile view.-->
+        <a class="navbar-brand page-scroll" href="#view">Rohith Pentaparthy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <!--        Try justify-content-start, justify-content-end or justify-content-between to see different layout styles for the navigation.-->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#about">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="resume-ft.pdf" target="_blank">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Banner Content-->
+    <!-- https://mdbootstrap.com/docs/jquery/javascript/carousel/ -->
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="view">
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+                    <div class="mask rgba-black-light"></div>
                 </div>
-                <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="/">~/</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/resume">Resume</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
-
-                </div><!--/.nav-collapse -->
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">Rohith Pentaparthy</h3>
+                    <p>Data Engineer</p>
+                </div>
             </div>
-        </nav>
-
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+                    <div class="mask rgba-black-strong"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">Rohith Pentaparthy</h3>
+                    <p>Data Engineer</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+                    <div class="mask rgba-black-slight"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">Rohith Pentaparthy</h3>
+                    <p>Data Engineer</p>
+                </div>
+            </div>
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+    <!--About Section-->
+    <div class="about" id="about">
         <div class="container">
-            <div align="center">
-            <h1>Rohith Pentaparthy</h1>
-                <p> U of Michigan engineering undergrad interested in analytics and technology.</p>
-
-            <table width="600" border="0" align="center">   
-                <tr>   
-                <th colspan="4" scope="col"><img src="espresso.jpg" width="701" height="400" alt="Header" /></th> 
-                </tr>  
-            </table> 
-
-        <footer>        
-            <div style="position: relative; width: 220px; height: 300px;">    
-                <div style="position: absolute; bottom: 5px;">
-                    <img src="headshot.jpg" width="83" height="90" alt="picture" />
-                    <p>Copyright © 2017 - <a href="https://en.wikipedia.org/wiki/Technological_singularity">Singularity</a>, Rohith Pentaparthy </p>    </div>
+            <div class="align-items-center justify-content-center">
+                <div class="heading text-center">
+                    <h2>About</h2>
+                </div>
+                <div class="row" width="300">
+                    <p>Welcome to my site! I graduated with a B.S.in Data Science from the University of Michigan. 
+                        I'm currently a fulltime Data Engineer at Capital One.</p>
+                    <p>I have strong interests in Software Engineering, Machine Learning, and Statistics.
+                        In my free time, I enjoy playing videogames, running outdoors, and helping others learn to code.</p>
+                </div>
             </div>
-       </footer>
+        </div>
+    </div>
+    <!--Experience Section-->
+    <div class="experience" id="experience">
+        <div class="container">
+            <div class="heading text-center">
+                <h2>Experience</h2>
+            </div>
+            <!-- The Timeline -->
+            <div class="timeline">
+                <!-- Item 1 -->
+                <div class="direction right" id="right-tag">
+                    <div class="content">
+                        <div class="flag">
+                            <h2>Capital One</h2>
+                            <h3>Data Engineering Associate<br>Enterprise Products &amp; Platform Tech</h3>
+                            <h4>Aug 2019 - present</h4>
 
+                        </div>
+                        <div class="desc">
+                            <p>Implemented Golang service for deploying applications onto Kubernetes clusters, and upgraded internal CI/CD framework using AWS, Jenkins, and Terraform to help users move away from legacy pipelines.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="direction left" id="left-tag">
+                    <div class="content">
+                        <div class="flag">
+                            <h2>Qualtrics SAP</h2>
+                            <h3>Software Engineering Intern<br>Data Platform</h3>
+                            <h4>May 2019 - Aug 2019</h4>
+                        </div>
+                        <div class="desc">
+                            <p>Designed Scala API that upgrades internal query language to efficiently translate custom date range requests into ElasticSearch queries.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="direction right" id="right-tag">
+                    <div class="content">
+                        <div class="flag">
+                            <h2>J.P. Morgan Chase</h2>
+                            <h3>Software Engineering Intern<br>Commercial Bank</h3>
+                            <h4>Jan 2018 - Dec 2018</h4>
+                        </div>
+                        <div class="desc">
+                            <p>Built a relational DB and configurable monitoring dashboard that visualizes real-time job and batch loan transactions using Angular 5.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Carousel Wrapper-->
+    <!--    https://getbootstrap.com/docs/4.0/components/card/-->
+    <!--    https://www.w3schools.com/bootstrap/bootstrap_modal.asp-->
+    <div class="projects" id="projects">
+        <!--        <div class="container">-->
+        <div class="heading text-center">
+            <h2>Projects</h2>
+        </div>
+        <div class="row">
+            <div class="card-deck">
+                <div class="col-md-4">
+                    <div class="card border-light mb-2">
+                        <div class="card-header"><i class="fas fa-bell"></i></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Reminder Bot for Github Pull Requests</h4>
+                            <p class="card-text">An app that tracks Github Pull Requests and pings approvers/commenters in real time on Slack.</p>
+                            <a class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-light mb-2">
+                        <div class="card-header"><i class="fas fa-fire-alt"></i></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Forest-Fire Detection and Notification</h4>
+                            <p class="card-text">A OpenCV tool that classifies forest fires size and growth from residential video footage.</p>
+                            <a class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-light mb-2">
+                        <div class="card-header"><i class="fas fa-comments"></i></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Internal Troubleshotting Chatbot</h4>
+                            <p class="card-text">A NLU chatbot using AWS Lex that responds and redirects user questions to specific teams.</p>
+                            <a class="btn btn-primary" data-toggle="modal" data-target="#portfolioModal3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Skills Section-->
+    <div class="skills" id="skills">
+        <div class="container">
+            <div class="heading text-center">
+                <h2>Skills</h2>
+            </div>
+            <div class="content row">
+                <!--Programming Languages-->
+                <div class="col-sm-6">
+                    <h4>Programming Skills</h4>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">C/C++</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Python</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Go</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                    <span class="sr-only">85% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Groovy</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">TypeScript</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                    <span class="sr-only">75% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">JavaScript</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                    <span class="sr-only">75% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Scala</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                    <span class="sr-only">70% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">PL/SQL</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Bash</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Technologies & Frameworks-->
+                <div class="col-sm-6">
+                    <h4>Technologies &amp; Frameworks</h4>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">AWS</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Kubernetes</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Jenkins</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                    <span class="sr-only">75% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Java.Spring</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                    <span class="sr-only">75% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">React</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                    <span class="sr-only">70% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Angular</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">ElasticSearch</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">MongoDB</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
+                                    <span class="sr-only">55% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Vim</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
+                                    <span class="sr-only">55% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact Section-->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="heading text-center">
+                <h2>Contact</h2>
+            </div>
+            <div class="text-center">
+                <p>Feel free to reach me at <a href="mailto:rohith.pentaparthy@gmail.com">[rohith.pentaparthy@gmail.com]</a> 
+                    or connect with me on <a href="https://www.linkedin.com/in/ropenta/">[LinkedIn]</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <footer>
+            <div class="row justify-content-center align-items-center socialLinks">
+                <div>
+                    <a class="social" href="https://github.com/ropenta">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div>
+                    <a class="social" href="https://www.linkedin.com/in/ropenta/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div>
+                    <a class="social" href="mailto:rohith.pentaparthy@gmail.com">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </div>
+                <div>
+                    <a class="devpost" href="https://devpost.com/penta495">
+                        <img src="img/devpost1.png" alt="">
+                        <img src="img/devpost2.png" class="devpost-hover" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="social" href="https://twitter.com/rohithpenta">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <p>Copyright © 2020 - Rohith Pentaparthy </p>
+            </div>
+        </footer>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--js files-->
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <!--Animation-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js "></script>
+    <script type="text/javascript" src="js/animation.js"></script>
 
+</body>
 
-
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-        </script>
-    </body>
 </html>
+
+<!--modal 1-->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1 " role="dialog " aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="title col-sm-5">
+                                <h2>Reminder Bot for Github Pull Requests</h2>
+                                <h3>Awards</h3>
+                                <p>Audience Choice Award @<br>Capital One Hackathon</p>
+                            </div>
+                            <div class="content col-sm-7">
+                                <h2>Summary</h2>
+                                <ul>
+                                    <li>Implemented serverless app to track Github Pull Requests and ping approvers/commenters in real time on Slack</li>
+                                </ul>
+                                <h2>Languages and Frameworks</h2>
+                                <ul>
+                                    <li>
+                                        AWS services
+                                        <ul>
+                                            <li> 
+                                                AWS Lambda
+                                            </li>
+                                            <li> 
+                                                AWS Gateway
+                                            </li>
+                                            <li> 
+                                                AWS DynamoDB
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Github API
+                                    </li>
+                                    <li>
+                                        Slack API
+                                    </li>
+                                    <li>
+                                        Capital One APIs
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <a class="prev" href="#" onclick="return false;">&#8249;</a>
+                <a class="next" href="#" onclick="return false;">&#8250;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end of modal 1-->
+<!--modal 2-->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1 " role="dialog " aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="title col-sm-5">
+                                <h2>Forest-Fire Detection and Notification</h2>
+                                <h3>Awards</h3>
+                                <p>Top 30 Hacks, and<br>Best Use of DocuSign API @<br>PennApps XVIII Hackathon</p>
+                                <div>
+                                    <a class="devpost" href="https://devpost.com/software/cachetheheat-com/">
+                                        <img src="img/devpost1.png" alt="">
+                                        <img src="img/devpost2.png" class="devpost-hover" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="content col-sm-7">
+                                <h2>Summary</h2>
+                                <ul>
+                                    <li>Built OpenCV tool to classify forest fires from residential video footage and to extract size and growth analytics on the fires </li>
+                                    <li>Utilized Twilio API for pre-emptive phone alerts to people nearby and MongoDB to allow residents to add footage systems </li>
+                                </ul>
+                                <h2>Languages and Frameworks</h2>
+                                <ul>
+                                    <li>
+                                        Python
+                                    </li>
+                                    <li>
+                                        OpenCV
+                                    </li>
+                                    <li>
+                                        MongoDB
+                                    </li>
+                                    <li>
+                                        Twilio API
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="controls">
+                <a class="prev" href="#" onclick="return false;">&#8249;</a>
+                <a class="next" href="#" onclick="return false;">&#8250;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end of modal 2-->
+<!--modal 3-->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1 " role="dialog " aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-inner">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="title col-sm-5">
+                                <h2>Lex Chatbot for Troubleshooting</h2>
+                                <h3>Awards</h3>
+                                <p>3rd Place @<br>JPMorgan Hackathon</p>
+                            </div>
+                            <div class="content col-sm-7">
+                                <h2>Summary</h2>
+                                <ul>
+                                    <li>Configured NLU chatbot using AWS Lex that responds and redirects user questions to specific teams</li>
+                                    <li>Automates manual redirecting done by L1-L3 support teams, saving around 74,880 hours annually</li>
+                                </ul>
+                                <h2>Technologies and Frameworks</h2>
+                                <ul>
+                                    <li>AWS Lex</li>
+                                    <li>AWS Lambda</li>
+                                    <li>Python</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <a class="prev" href="#" onclick="return false;">&#8249;</a>
+                <a class="next" href="#" onclick="return false;">&#8250;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end of modal 3-->

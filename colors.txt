@@ -1,0 +1,7 @@
+#B37336
+#FFC085
+#FFB36B
+#2796B3
+#6BE1FF
+
+`Complementary` color wheel on https://color.adobe.com/create/color-wheel/
