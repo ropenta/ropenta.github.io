@@ -5,7 +5,12 @@ Rohith's Notes
 4. Make project boxes stack sooner (wide width)
 5. Add border around `Resume` in the header
 6. Update contact section to have links (also update footer)
-
+7. Update About for mobile
+8. Update Timeline for mobile
+9. Update Projects for mobile
+10. Update Modals for mobile
+11. Make sure mobile doesn't have horizontal scroll
+12. Fix carosol to 
 
 Jen's Notes
 1. Edit timeline so it's compatible with screen width <600px
