@@ -10,11 +10,12 @@ Rohith's Notes
 9. Update Projects for mobile
 10. Update Modals for mobile
 11. Make sure mobile doesn't have horizontal scroll
-12. Fix carosol to 
+12. Fix carosol pausing when hovering over arrow
+13. Fix carosol speeding up
 
 Jen's Notes
 1. Edit timeline so it's compatible with screen width <600px
 2. resize Devpost to match other contact icons (low priority)
 
-Example Portfolio's
-https://brittanychiang.com/#contact
+Example Portfolio's 
+https://brittanychiang.com/#contact 
