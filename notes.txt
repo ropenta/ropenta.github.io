@@ -1,6 +1,4 @@
 Rohith's Notes
-1. Favicon for Tab (right now it's just a blue 'H')
-2. Find and resize 3 images for carosol (1321px x 583px)
 3. Add Open Source contributions section
 4. Make project boxes stack sooner (wide width)
 5. Add border around `Resume` in the header
@@ -19,3 +17,8 @@ Jen's Notes
 
 Example Portfolio's 
 https://brittanychiang.com/#contact 
+
+Completed
+1. Favicon for Tab (right now it's just a blue 'H')
+2. Find and resize 3 images for carosol (1321px x 583px)
+    https://www.imgonline.com.ua/eng/resize-image.php
