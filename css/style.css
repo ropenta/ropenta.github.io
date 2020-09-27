@@ -712,3 +712,15 @@ footer img {
 footer .social:hover {
     color: #8FC1E3;
 }
+
+/* START OF Change the font/size/color of the Slider Titles */
+/* Change Slider Titles (2em) font-size, (Garamond) family, (red) color */
+/* Title text */
+.carousel-caption h3 {
+    color:          rgb(172, 222, 255) !important;
+}
+/* Description text */
+.carousel-caption p {
+    font-size:      1.5em;
+    color:          rgb(143, 193, 227) !important;
+}

@@ -10,6 +10,8 @@ Rohith's Notes
 11. Make sure mobile doesn't have horizontal scroll
 12. Fix carosol pausing when hovering over arrow
 13. Fix carosol speeding up
+14. Add dark mode
+15. Change experience timeline to be a map of job locations: https://staticmapmaker.com/google/
 
 Jen's Notes
 1. Edit timeline so it's compatible with screen width <600px
