@@ -12,6 +12,9 @@ Rohith's Notes
 13. Fix carosol speeding up
 14. Add dark mode
 15. Change experience timeline to be a map of job locations: https://staticmapmaker.com/google/
+    https://maptimeboston.github.io/leaflet-intro/
+16. Add Stack Overflow/ Cross Validated links
+17. Fix nav bar items on 2nd+ click
 
 Jen's Notes
 1. Edit timeline so it's compatible with screen width <600px
